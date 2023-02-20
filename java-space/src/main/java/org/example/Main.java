@@ -5,7 +5,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 //        task1();
-        task2();
+//        task2();
+        task3();
     }
 
     public static void task1(){
@@ -40,5 +41,12 @@ public class Main {
         Task2 task2 = new Task2();
         List<Integer> result = task2.addToArrayForm(input, k);
         System.out.println(result.toString());
+    }
+
+    public static void task3(){
+        Task3 task3 = new Task3();
+        int[] numbs = new int[]{1,3,5,6};
+        int target = 7;
+        System.out.println("Index: " + task3.searchInsert(numbs, target));
     }
 }
