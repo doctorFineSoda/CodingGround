@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 //https://leetcode.com/problems/search-insert-position/
 //binary search for a an existing or non existent integer
 public class Task3 {

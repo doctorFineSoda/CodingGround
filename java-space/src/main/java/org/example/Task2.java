@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 import java.math.BigInteger;
 import java.util.*;
 //https://leetcode.com/problems/add-to-array-form-of-integer/description/
