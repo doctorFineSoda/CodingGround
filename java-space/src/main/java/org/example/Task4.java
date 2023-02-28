@@ -1,6 +1,7 @@
 package org.example;
 
 public class Task4 {
+//    https://leetcode.com/problems/single-element-in-a-sorted-array/
     public Task4(){}
 
     public int singleNonDuplicate(int[] numbs) {

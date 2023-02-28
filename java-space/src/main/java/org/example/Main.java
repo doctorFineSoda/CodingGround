@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
 //        task1();
 //        task2();
-        task3();
+//        task3();
+//        task4();
     }
 
     public static void task1(){
@@ -49,4 +50,12 @@ public class Main {
         int target = 7;
         System.out.println("Index: " + task3.searchInsert(numbs, target));
     }
+
+    public static void task4(){
+        Task4 task4 = new Task4();
+        int[] numbs = new int[]{1,1,2,3,3,4,4,8,8};
+//        int target = 7;
+        System.out.println("Element: " + task4.singleNonDuplicate(numbs));
+    }
+
 }

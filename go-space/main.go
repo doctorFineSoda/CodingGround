@@ -1,10 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello world! :)")
-	task4()
+
+}
+
+// fmt.Println("Hello world! :)")
+// task4()
+// task1()
+func task1() {
+	numbs := []int{2, 7, 11, 15}
+	target := 9
+	fmt.Printf("Element: %d\n", twoSum(numbs, target))
 }
 
 func task4() {
